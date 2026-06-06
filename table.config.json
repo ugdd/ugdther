@@ -11,5 +11,6 @@
     { "header": "Title", "type": "link", "property": "title", "url": "{{url}}" },
     { "header": "Artist", "type": "text", "property": "artist" },
     { "header": "Chart", "type": "badge", "label": "DL", "url": "{{url_diff}}", "align": "center" }
+    { "header": "Charter", "type": "text", "property": "name_diff" }
   ]
 }
