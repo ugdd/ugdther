@@ -1,16 +1,16 @@
 {
-  "name": "My BMS Table",
-  "symbol": "⚪︎",
-  "dataUrl": "https://your-gas-url/exec",
-  "siteDescription": "ここにサイトの説明を記載してください",
+  "name": "ugd難易度表",
+  "symbol": "ugd",
+  "dataUrl": "https://script.google.com/macros/s/AKfycbyZGahTCcoBf6KlLxzpMifKnp5x76-gq2MMV7iXjjN3wvg71ssb-7SwZ6GCmlJ4RPKeyg/exec",
+  "siteDescription": "ugd難易度表",
   "lightTheme": "light",
   "darkTheme": "dark",
   "darkMode": "system",
   "columns": [
     { "header": "Lv", "type": "level" },
-    { "header": "Title", "type": "link", "property": "title", "url": "{{url}}" },
-    { "header": "Artist", "type": "text", "property": "artist" },
+    { "header": "Title", "type": "link", "property": "title", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}" },
+    { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}" },
     { "header": "Chart", "type": "badge", "label": "DL", "url": "{{url_diff}}", "align": "center" }
-    { "header": "Charter", "type": "text", "property": "name_diff" }
+    { "header": "Comment", "type": "text", "property": "comment" }
   ]
 }
