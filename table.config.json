@@ -10,7 +10,7 @@
     { "header": "Lv", "type": "level" },
     { "header": "Title", "type": "link", "property": "title", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}" },
     { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}" },
-    { "header": "Chart", "type": "badge", "label": "DL", "url": "{{url_diff}}", "align": "center" }
+    { "header": "Chart", "type": "badge", "label": "DL", "url": "{{url_diff}}", "align": "center" },
     { "header": "Comment", "type": "text", "property": "comment" }
   ]
 }
