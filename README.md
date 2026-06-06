@@ -1,7 +1,6 @@
 # ugd難易度表
-
-obj:ugd
+obj:ugd の譜面
+このテンプレートはmeta氏のbms-diff-table-templateを使用しています
 
 ## ライセンス
-このテンプレートはmeta氏のbms-diff-table-templateを使用しています。
 [MIT License](LICENSE) © 2026 meta
