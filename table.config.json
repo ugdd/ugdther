@@ -7,10 +7,10 @@
   "darkTheme": "dark",
   "darkMode": "system",
   "columns": [
-    { "header": "Lv", "type": "level" },
-    { "header": "Title", "type": "link", "property": "title", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}" },
-    { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}" },
-    { "header": "Chart", "type": "badge", "label": "DL", "url": "{{url_diff}}", "align": "center" },
-    { "header": "Comment", "type": "text", "property": "comment" }
+    { "header": "Lv", "type": "level", "width": "10%" },
+    { "header": "Title", "type": "link", "property": "title", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}", "width": "30%" },
+    { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}", "width": "30%" },
+    { "header": "Chart", "type": "badge", "label": "DL", "url": "{{url_diff}}", "align": "center", "width": "10%" },
+    { "header": "Comment", "type": "text", "property": "comment", "width": "20%" }
   ]
 }
